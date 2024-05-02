@@ -184,11 +184,6 @@ footer {
       font-size: 40px; /* Decrease font size for smaller screens */
     }
   
-    section, .text-bubble, .text-left, .text-right {
-      margin-left: 10px;
-      margin-right: 10px; /* Adjust margins for smaller screens */
-    }
-  
     .text-bubble, .text-left, .text-right {
       padding: 40px; /* Decrease padding for smaller screens */
     }
