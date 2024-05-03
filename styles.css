@@ -90,7 +90,7 @@ section{
 
 .final{
     background-color: #faf7e4;
-    min-height: 300vh;
+    min-height: 2007px;
     padding: 0 10px;
 }
 
@@ -175,17 +175,17 @@ footer {
   }
 
   @media only screen and (max-width: 768px) {
-    /* Adjustments for smaller screens */
+  
     .container {
-      overflow-x: auto; /* Allow horizontal scrolling on smaller screens */
+      overflow-x: auto;
     }
   
     .title {
-      font-size: 40px; /* Decrease font size for smaller screens */
+      font-size: 30px;
     }
   
     .text-bubble, .text-left, .text-right {
-      padding: 40px; /* Decrease padding for smaller screens */
+      padding: 30px; 
     }
 
     .text-bubble::after{
@@ -194,26 +194,26 @@ footer {
     }
   
     .red h1, .pink h1 {
-      font-size: 28px; /* Decrease font size for smaller screens */
+      font-size: 28px;
       width: 380px;
     }
   
     .red h2, .pink h2 {
-      font-size: 18px; /* Decrease font size for smaller screens */
+      font-size: 18px;
       width: 350px;
     }
   
     .final p {
-      width: auto; /* Remove fixed width for paragraphs */
+      width: auto;
     }
   
     .final h1 {
-      font-size: 40px; /* Decrease font size for smaller screens */
+      font-size: 40px;
     }
   
     .text-left::after, .text-right::after {
-      bottom: -10px; /* Adjust position of triangles for smaller screens */
-      height: 60px; /* Decrease height of triangles for smaller screens */
-      width: 20px; /* Decrease width of triangles for smaller screens */
+      bottom: -10px;
+      height: 60px;
+      width: 20px;
     }
   }
